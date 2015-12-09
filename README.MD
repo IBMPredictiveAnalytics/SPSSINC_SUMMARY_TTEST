@@ -1,100 +1,41 @@
-STATS OPEN PROJECT
-====================================
+SPSSINC SUMMARY TTEST Extension Command
+=======================================
 
-## Open a project
- This command opens a project.  A project consists of Stat
+Calculate a t test from the N's, means, and standard deviations
+rather than the case data
 
----
-Requirements
-----
-- IBM SPSS Statistics 18 or later
-
----
-Installation intructions
-----
-1. Open IBM SPSS Statistics
-2. Navigate to Utilities -> Extension Bundles -> Download and Install Extension Bundles
-3. Search for the name of the extension and click Ok. Your extension will be available.
-
-----
-Tutorial
-----
-
-Open a project defined in a project file
-
-
-STATS OPEN PROJECT  
-FILE="*file*"   
-PASSWORD="*password*"  
-STARTUP = ASIS^&#42;&#42; or SET or DELETE
+SPSSINC SUMMARY TTEST N1=*value(s)*^&#42; N2=*value(s)*^&#42;  
+MEAN1=*value(s)*^&#42; MEAN2=*value(s)*^&#42;  
+SD1=*value(s)*^&#42; SD2=*value(s)*^&#42;  
+CI=percentage  
+LABEL1="*text*" "*text*" LABEL2="*text*"
 
 /HELP
 
 ^&#42; Required  
-^&#42;&#42; Default
+^&#42;^&#42; Default
 
 /HELP displays this help and does nothing else.
 
-A project file defines a set of files to open and SPSS code to run.  A
-project can be set to open automatically when Statistics is launched.
-
-**FILE** is the name of a project file to open.  A project file is a plain text
-file with the following format.
+Example:
 ```
-[RUN]
-syntax commands in interactive format
-[OPEN]
-list of data (.sav), syntax (.sps), and output (.spv) files to open,
-one per line
-[PROJECT]
-list of other project files to be opened
+SPSSINC SUMMARY TTEST N1=20 MEAN1=5 SD1=2 LABEL1="Sample 1" 
+N2=30 MEAN2=5.5 SD2=2.3 LABEL2="Sample 2" CI=95.
 ```
 
-Sections may appear in any order and may be repeated.
-Files listed in a PROJECT section must follow this same format.
-If you have a standard utility library and various working projects,
-it may be convenient to reference a standard project file first and then
-make working project specifications.
+**N1** and **N2** are the case counts for the two samples.
 
-File handles defined in executed RUN sections or before this command can
-be used in file listings.
+**MEAN1** and **MEAN2** are the means.
 
-Lines starting with a semicolon are comments and are echoed to the Viewer.
+**SD1** and **SD2** are the standard deviations.
 
-Optionally a single password, encrypted or in plain text can be
-specified to be applied to files listed in OPEN sections if your version
-of Statistics supports this.  The password must be enclosed in quotes.
+**LABEL1** and **LABEL2** are optional labels for the samples as quoted text.
 
-**STARTUP** specifies what happens in future sessions.  
-* SET: future sessions will open this project automatically
-* DELETE: future sessions will not open this project.
-* ASIS: future sessions will operate the same as the current
-session.
+The N's, means, standard deviations, and labels can be lists of items.  
+One set of statistics is produced for each
+set of items in the lists.  All the lists must be the same length.
 
-Note: SET creates a script that is automatically executed when
-Statistics starts.  If there is an existing startup script, it
-is replaced if it appears to have been created by this command.  
-STARTUP=DELETE erases the startup script if it appears to have
-been created with this command.
-
-If you want to combine automatic project opening with other scripted
-activities at startup, you can add the startup code to your
-existing script.  This portion of the script would look like this.
-```
-import SpssClient
-SpssClient.StartClient()
-SpssClient.RunSyntax(r'''STATS OPEN PROJECT FILE="project filename".''')
-SpssClient.StopClient()
-```
+CI is the confidence level expressed as a percentage.  It defaults to 95.
 
 
----
-License
-----
-
-- Apache 2.0
-                              
-Contributors
-----
-
-  - JKP, IBM SPSS
+(C) Copyright IBM Corp. 1989, 2014
