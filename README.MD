@@ -1,5 +1,5 @@
 # SPSSINC SUMMARY TTEST
-## Calculate a t test from the N's, means, and standard deviations rather than the case data
+Calculate a t test from the N's, means, and standard deviations rather than the case data
 
 ----
 Requirements
