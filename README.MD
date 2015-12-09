@@ -1,4 +1,4 @@
-STATS OPEN PROJECT Extension Command
+STATS OPEN PROJECT
 ====================================
 
 ## Open a project
