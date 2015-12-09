@@ -98,5 +98,3 @@ Contributors
 ----
 
   - JKP, IBM SPSS
-
-(C) Copyright IBM Corp. 1989, 2014
