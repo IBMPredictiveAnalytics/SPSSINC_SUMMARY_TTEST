@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>SPSSINC SUMMARY TTEST Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>SPSSINC SUMMARY TTEST Extension Command</h1>
+
+<p>Calculate a t test from the N&#39;s, means, and standard deviations
+rather than the case data</p>
+<div class="syntax">
+<p>SPSSINC SUMMARY TTEST N1=<em>value(s)</em><sup>&#42;</sup> N2=<em>value(s)</em><sup>&#42;</sup><br/>
+MEAN1=<em>value(s)</em><sup>&#42;</sup> MEAN2=<em>value(s)</em><sup>&#42;</sup><br/>
+SD1=<em>value(s)</em><sup>&#42;</sup> SD2=<em>value(s)</em><sup>&#42;</sup><br/>
+CI=percentage<br/>
+LABEL1=&ldquo;<em>text</em>&rdquo; &ldquo;<em>text</em>&rdquo; LABEL2=&ldquo;<em>text</em>&rdquo;</p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;<sup>&#42;</sup></sup> Default</p>
+</div>
+<p>/HELP displays this help and does nothing else.</p>
+
+
+
+<pre class="example"><code>SPSSINC SUMMARY TTEST N1=20 MEAN1=5 SD1=2 LABEL1=&quot;Sample 1&quot; 
+N2=30 MEAN2=5.5 SD2=2.3 LABEL2=&quot;Sample 2&quot; CI=95.
+</code></pre>
+
+<p><strong>N1</strong> and <strong>N2</strong> are the case counts for the two samples.</p>
+
+<p><strong>MEAN1</strong> and <strong>MEAN2</strong> are the means.</p>
+
+<p><strong>SD1</strong> and <strong>SD2</strong> are the standard deviations.</p>
+
+<p><strong>LABEL1</strong> and <strong>LABEL2</strong> are optional labels for the samples as quoted text.</p>
+
+<p>The N&#39;s, means, standard deviations, and labels can be lists of items.<br/>
+One set of statistics is produced for each
+set of items in the lists.  All the lists must be the same length.</p>
+
+<p>CI is the confidence level expressed as a percentage.  It defaults to 95.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+

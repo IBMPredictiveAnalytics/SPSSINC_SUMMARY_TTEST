@@ -1,0 +1,174 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: SPSSINC_SUMMARY_TTEST.py:84
+msgid "Sample 1"
+msgstr ""
+"Próba 1"
+
+#: SPSSINC_SUMMARY_TTEST.py:86
+msgid "Sample 2"
+msgstr ""
+"Próba 2"
+
+#: SPSSINC_SUMMARY_TTEST.py:89
+msgid "The same number of values must be given for each statistic or label"
+msgstr ""
+"Tę samą liczbę wartości należy podać w przypadku każdej statystyki lub etykiety"
+
+#: SPSSINC_SUMMARY_TTEST.py:103
+msgid "Sample sizes must be at least 1"
+msgstr ""
+"Rozmiar próby musi wynosić co najmniej 1"
+
+#: SPSSINC_SUMMARY_TTEST.py:171
+msgid "Test %d:  "
+msgstr ""
+"Test %d:  "
+
+#: SPSSINC_SUMMARY_TTEST.py:185
+msgid "Summary Data"
+msgstr ""
+"Dane podsumowania"
+
+#: SPSSINC_SUMMARY_TTEST.py:186
+msgid "Mean"
+msgstr ""
+"Średnia"
+
+#: SPSSINC_SUMMARY_TTEST.py:186
+msgid "N"
+msgstr ""
+"N"
+
+#: SPSSINC_SUMMARY_TTEST.py:186
+msgid "Std. Deviation"
+msgstr ""
+"Odchylenie standardowe"
+
+#: SPSSINC_SUMMARY_TTEST.py:186
+msgid "Std. Error Mean"
+msgstr ""
+"Błąd standardowy średniej"
+
+#: SPSSINC_SUMMARY_TTEST.py:191 SPSSINC_SUMMARY_TTEST.py:192
+msgid "Independent Samples Test"
+msgstr ""
+"Test dla prób niezależnych"
+
+#: SPSSINC_SUMMARY_TTEST.py:192
+msgid "Mean Difference"
+msgstr ""
+"Różnica średnich"
+
+#: SPSSINC_SUMMARY_TTEST.py:192
+msgid "Std. Error Difference"
+msgstr ""
+"Błąd standardowy różnicy"
+
+#: SPSSINC_SUMMARY_TTEST.py:193
+msgid "Hartley test for equal variance: F = %.3f, Sig. = %.4f"
+msgstr ""
+"Test Hartley'a wariancji równej: F = %.3f, Istotność = %.4f"
+
+#: SPSSINC_SUMMARY_TTEST.py:193
+msgid "Sig. (2-tailed)"
+msgstr ""
+"Istotność (dwustronna)"
+
+#: SPSSINC_SUMMARY_TTEST.py:193
+msgid "df"
+msgstr ""
+"df"
+
+#: SPSSINC_SUMMARY_TTEST.py:193
+msgid "t"
+msgstr ""
+"t"
+
+#: SPSSINC_SUMMARY_TTEST.py:194
+msgid "Equal variances assumed"
+msgstr ""
+"Założono równość wariancji"
+
+#: SPSSINC_SUMMARY_TTEST.py:195
+msgid "Equal variances not assumed"
+msgstr ""
+"Nie założono równości wariancji"
+
+#: SPSSINC_SUMMARY_TTEST.py:198
+msgid "Confidence Intervals"
+msgstr ""
+"Przedziały ufności"
+
+#: SPSSINC_SUMMARY_TTEST.py:199
+msgid "%.1f%% Confidence Intervals for Difference"
+msgstr ""
+"%.1f%% Przedziały ufności dla różnicy"
+
+#: SPSSINC_SUMMARY_TTEST.py:200
+msgid "Lower Limit"
+msgstr ""
+"Dolna granica"
+
+#: SPSSINC_SUMMARY_TTEST.py:200
+msgid "Upper Limit"
+msgstr ""
+"Górna granica"
+
+#: SPSSINC_SUMMARY_TTEST.py:201
+msgid "Asymptotic (equal variance)"
+msgstr ""
+"Asymptotyczna (wariancja równa)"
+
+#: SPSSINC_SUMMARY_TTEST.py:202
+msgid "Asymptotic (unequal variance)"
+msgstr ""
+"Asymptotyczna (wariancja nierówna)"
+
+#: SPSSINC_SUMMARY_TTEST.py:203
+msgid "Exact (equal variance)"
+msgstr ""
+"Dokładne (wariancja równa)"
+
+#: SPSSINC_SUMMARY_TTEST.py:204
+msgid "Exact (unequal variance)"
+msgstr ""
+"Dokładne (wariancja nierówna)"
+
+#: SPSSINC_SUMMARY_TTEST.py:238
+msgid "---"
+msgstr ""
+"---"
+
+
+

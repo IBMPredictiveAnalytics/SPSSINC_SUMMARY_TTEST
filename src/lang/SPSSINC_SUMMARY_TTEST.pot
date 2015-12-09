@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2010-01-29 15:06+Mountain Standard Time\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: SPSSINC_SUMMARY_TTEST.py:75
+msgid "Sample 1"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:77
+msgid "Sample 2"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:80
+msgid "The same number of values must be given for each statistic or label"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:94
+msgid "Sample sizes must be at least 1"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:162
+msgid "Test %d:  "
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:176
+msgid "Summary Data"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:177
+msgid "Mean"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:177
+msgid "N"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:177
+msgid "Std. Deviation"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:177
+msgid "Std. Error Mean"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:182 SPSSINC_SUMMARY_TTEST.py:183
+msgid "Independent Samples Test"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:183
+msgid "Mean Difference"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:183
+msgid "Std. Error Difference"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:184
+msgid "Hartley test for equal variance: F = %.3f, Sig. = %.4f"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:184
+msgid "Sig. (2-tailed)"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:184
+msgid "df"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:184
+msgid "t"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:185
+msgid "Equal variances assumed"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:186
+msgid "Equal variances not assumed"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:189
+msgid "Confidence Intervals"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:190
+msgid "%.1f%% Confidence Intervals for Difference"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:191
+msgid "Lower Limit"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:191
+msgid "Upper Limit"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:192
+msgid "Asymptotic (equal variance)"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:193
+msgid "Asymptotic (unequal variance)"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:194
+msgid "Exact (equal variance)"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:195
+msgid "Exact (unequal variance)"
+msgstr ""
+
+#: SPSSINC_SUMMARY_TTEST.py:229
+msgid "---"
+msgstr ""
+

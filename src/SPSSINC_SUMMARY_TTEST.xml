@@ -1,0 +1,14 @@
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension.xsd" Name="SPSSINC SUMMARY TTEST" Language="Python">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="N1" ParameterType="NumberList"/>
+		<Parameter Name="N2" ParameterType="NumberList"/>
+		<Parameter Name="MEAN1" ParameterType="NumberList"/>
+		<Parameter Name="MEAN2" ParameterType="NumberList"/>
+		<Parameter Name="SD1" ParameterType="NumberList"/>
+		<Parameter Name="SD2" ParameterType="NumberList"/>
+		<Parameter Name="LABEL1" ParameterType="TokenList"/>
+		<Parameter Name="LABEL2" ParameterType="TokenList"/>
+		<Parameter Name="CI" ParameterType="Number"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
