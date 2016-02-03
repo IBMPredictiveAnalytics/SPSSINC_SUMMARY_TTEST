@@ -4,7 +4,9 @@ Calculate a t test from the N's, means, and standard deviations rather than the 
 ----
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for Python.
+
+Note: For users with IBM SPSS Statistics version 23 or higher, the SPSSINC SUMMARY TTEST extension is installed as part of IBM SPSS Statistics-Essentials for Python.
 
 ---
 Installation intructions
