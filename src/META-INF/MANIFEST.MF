@@ -2,13 +2,15 @@ Name: SPSSINC SUMMARY TTEST
 Dialog-Specs: SPSSINC_SUMMARY_TTEST.spd
 Command-Specs: SPSSINC_SUMMARY_TTEST.xml
 Code-Files: SPSSINC_SUMMARY_TTEST.py
-Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Misc-Files: extsyntax.css,IBMdialogicon.png,markdown.html
 Summary: Calculate a t test from sample summary information
 Description: This procedure calculates a t test from just the summary 
  information of the two samples: means, standard deviations, and case 
  counts.
 Author: JKP, IBM SPSS
-Version: 1.0.5
-Product-Version: 18
+Version: 2.0.0
+Product-Version: 24
+Product-Version-Maximum: 99
 Plugins: Python
+Python-Version: 3
 Translation-Catalogues: lang
