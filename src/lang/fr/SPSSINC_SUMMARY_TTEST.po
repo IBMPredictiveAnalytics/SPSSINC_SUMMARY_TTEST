@@ -1,174 +1,103 @@
-#/***********************************************************************
-# * Licensed Materials - Property of IBM 
-# *
-# * IBM SPSS Products: Statistics Common
-# *
-# * (C) Copyright IBM Corp. 1989, 2014
-# *
-# * US Government Users Restricted Rights - Use, duplication or disclosure
-# * restricted by GSA ADP Schedule Contract with IBM Corp. 
-# ************************************************************************/
-
-# NLS_ENCODING=UTF-8
-# IBMUPYTH
-
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR ORGANIZATION
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
+
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-11 00:32-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Generated-By: pygettext.py 1.5\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Globalization Pipeline\n"
 
-
-#: SPSSINC_SUMMARY_TTEST.py:84
 msgid "Sample 1"
-msgstr ""
-"Echantillon 1"
+msgstr "Echantillon 1"
 
-#: SPSSINC_SUMMARY_TTEST.py:86
 msgid "Sample 2"
-msgstr ""
-"Echantillon 2"
+msgstr "Echantillon 2"
 
-#: SPSSINC_SUMMARY_TTEST.py:89
 msgid "The same number of values must be given for each statistic or label"
 msgstr ""
 "Le même nombre de valeurs doit être attribué à chaque statistique ou libellé."
 
-#: SPSSINC_SUMMARY_TTEST.py:103
 msgid "Sample sizes must be at least 1"
-msgstr ""
-"La taille de l'échantillon doit être de 1 minimum."
+msgstr "La taille de l'échantillon doit être de 1 minimum."
 
-#: SPSSINC_SUMMARY_TTEST.py:171
 msgid "Test %d:  "
-msgstr ""
-"Test %d : "
+msgstr "Test %d : "
 
-#: SPSSINC_SUMMARY_TTEST.py:185
 msgid "Summary Data"
-msgstr ""
-"Données récapitulatives"
+msgstr "Données récapitulatives"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Mean"
-msgstr ""
-"Moyenne"
+msgstr "Moyenne"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "N"
-msgstr ""
-"N"
+msgstr "N"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Deviation"
-msgstr ""
-"Ecart type"
+msgstr "Ecart type"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Error Mean"
-msgstr ""
-"Moyenne d'erreur standard"
+msgstr "Moyenne d'erreur standard"
 
-#: SPSSINC_SUMMARY_TTEST.py:191 SPSSINC_SUMMARY_TTEST.py:192
 msgid "Independent Samples Test"
-msgstr ""
-"Test des échantillons indépendants"
+msgstr "Test des échantillons indépendants"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Mean Difference"
-msgstr ""
-"Différence moyenne"
+msgstr "Différence moyenne"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Std. Error Difference"
-msgstr ""
-"Différence d'erreur standard"
+msgstr "Différence d'erreur standard"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Hartley test for equal variance: F = %.3f, Sig. = %.4f"
-msgstr ""
-"Test Hartley à variance égale : F = %.3f, Sig. = %.4f"
+msgstr "Test Hartley à variance égale : F = %.3f, Sig. = %.4f"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Sig. (2-tailed)"
-msgstr ""
-"Sig. (bilatérale)"
+msgstr "Sig. (bilatérale)"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "df"
-msgstr ""
-"ddl"
+msgstr "ddl"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "t"
-msgstr ""
-"t"
+msgstr "t"
 
-#: SPSSINC_SUMMARY_TTEST.py:194
 msgid "Equal variances assumed"
-msgstr ""
-"Hypothèse de variances égales"
+msgstr "Hypothèse de variances égales"
 
-#: SPSSINC_SUMMARY_TTEST.py:195
 msgid "Equal variances not assumed"
-msgstr ""
-"Hypothèse de variances inégales"
+msgstr "Hypothèse de variances inégales"
 
-#: SPSSINC_SUMMARY_TTEST.py:198
 msgid "Confidence Intervals"
-msgstr ""
-"Intervalles de confiance"
+msgstr "Intervalles de confiance"
 
-#: SPSSINC_SUMMARY_TTEST.py:199
 msgid "%.1f%% Confidence Intervals for Difference"
-msgstr ""
-"Intervalles de confiance à %.1f%% pour la différence"
+msgstr "Intervalles de confiance à %.1f%% pour la différence"
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Lower Limit"
-msgstr ""
-"Borne inférieure "
+msgstr "Borne inférieure "
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Upper Limit"
-msgstr ""
-"Borne supérieure"
+msgstr "Borne supérieure"
 
-#: SPSSINC_SUMMARY_TTEST.py:201
 msgid "Asymptotic (equal variance)"
-msgstr ""
-"Asymptotique (variance égale)"
+msgstr "Asymptotique (variance égale)"
 
-#: SPSSINC_SUMMARY_TTEST.py:202
 msgid "Asymptotic (unequal variance)"
-msgstr ""
-"Asymptotique (variance inégale)"
+msgstr "Asymptotique (variance inégale)"
 
-#: SPSSINC_SUMMARY_TTEST.py:203
 msgid "Exact (equal variance)"
-msgstr ""
-"Exact (variance égale)"
+msgstr "Exact (variance égale)"
 
-#: SPSSINC_SUMMARY_TTEST.py:204
 msgid "Exact (unequal variance)"
-msgstr ""
-"Exact (variance inégale)"
+msgstr "Exact (variance inégale)"
 
-#: SPSSINC_SUMMARY_TTEST.py:238
 msgid "---"
-msgstr ""
-"---"
-
-
-
+msgstr "---"
