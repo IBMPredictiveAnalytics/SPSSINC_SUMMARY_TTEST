@@ -1,174 +1,102 @@
-#/***********************************************************************
-# * Licensed Materials - Property of IBM 
-# *
-# * IBM SPSS Products: Statistics Common
-# *
-# * (C) Copyright IBM Corp. 1989, 2014
-# *
-# * US Government Users Restricted Rights - Use, duplication or disclosure
-# * restricted by GSA ADP Schedule Contract with IBM Corp. 
-# ************************************************************************/
-
-# NLS_ENCODING=UTF-8
-# IBMUPYTH
-
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR ORGANIZATION
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
+
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-11 00:54-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Generated-By: pygettext.py 1.5\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Globalization Pipeline\n"
 
-
-#: SPSSINC_SUMMARY_TTEST.py:84
 msgid "Sample 1"
-msgstr ""
-"样本 1"
+msgstr "样本 1"
 
-#: SPSSINC_SUMMARY_TTEST.py:86
 msgid "Sample 2"
-msgstr ""
-"样本 2"
+msgstr "样本 2"
 
-#: SPSSINC_SUMMARY_TTEST.py:89
 msgid "The same number of values must be given for each statistic or label"
-msgstr ""
-"对于每项统计或标签，必须指定相同数目的值"
+msgstr "对于每项统计或标签，必须指定相同数目的值"
 
-#: SPSSINC_SUMMARY_TTEST.py:103
 msgid "Sample sizes must be at least 1"
-msgstr ""
-"样本大小必须至少为 1"
+msgstr "样本大小必须至少为 1"
 
-#: SPSSINC_SUMMARY_TTEST.py:171
 msgid "Test %d:  "
-msgstr ""
-"检验 %d："
+msgstr "检验 %d："
 
-#: SPSSINC_SUMMARY_TTEST.py:185
 msgid "Summary Data"
-msgstr ""
-"摘要数据"
+msgstr "摘要数据"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Mean"
-msgstr ""
-"平均值"
+msgstr "平均值"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "N"
-msgstr ""
-"N"
+msgstr "N"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Deviation"
-msgstr ""
-"标准差"
+msgstr "标准差"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Error Mean"
-msgstr ""
-"标准误差平均值"
+msgstr "标准误差平均值"
 
-#: SPSSINC_SUMMARY_TTEST.py:191 SPSSINC_SUMMARY_TTEST.py:192
 msgid "Independent Samples Test"
-msgstr ""
-"独立样本检验"
+msgstr "独立样本检验"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Mean Difference"
-msgstr ""
-"平均值差值"
+msgstr "平均值差值"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Std. Error Difference"
-msgstr ""
-"标准误差差值"
+msgstr "标准误差差值"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Hartley test for equal variance: F = %.3f, Sig. = %.4f"
-msgstr ""
-"Hartley 等方差检验：F = %.3f，显著性 = %.4f"
+msgstr "Hartley 等方差检验：F = %.3f，显著性 = %.4f"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Sig. (2-tailed)"
-msgstr ""
-"显著性（双尾）"
+msgstr "显著性（双尾）"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "df"
-msgstr ""
-"自由度"
+msgstr "自由度"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "t"
-msgstr ""
-"t"
+msgstr "t"
 
-#: SPSSINC_SUMMARY_TTEST.py:194
 msgid "Equal variances assumed"
-msgstr ""
-"假定等方差"
+msgstr "假定等方差"
 
-#: SPSSINC_SUMMARY_TTEST.py:195
 msgid "Equal variances not assumed"
-msgstr ""
-"不假定等方差"
+msgstr "不假定等方差"
 
-#: SPSSINC_SUMMARY_TTEST.py:198
 msgid "Confidence Intervals"
-msgstr ""
-"置信区间"
+msgstr "置信区间"
 
-#: SPSSINC_SUMMARY_TTEST.py:199
 msgid "%.1f%% Confidence Intervals for Difference"
-msgstr ""
-"差值的 %.1f%% 置信区间"
+msgstr "差值的 %.1f%% 置信区间"
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Lower Limit"
-msgstr ""
-"下限"
+msgstr "下限"
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Upper Limit"
-msgstr ""
-"上限"
+msgstr "上限"
 
-#: SPSSINC_SUMMARY_TTEST.py:201
 msgid "Asymptotic (equal variance)"
-msgstr ""
-"渐近（等方差）"
+msgstr "渐近（等方差）"
 
-#: SPSSINC_SUMMARY_TTEST.py:202
 msgid "Asymptotic (unequal variance)"
-msgstr ""
-"渐近（不等方差）"
+msgstr "渐近（不等方差）"
 
-#: SPSSINC_SUMMARY_TTEST.py:203
 msgid "Exact (equal variance)"
-msgstr ""
-"精确（等方差）"
+msgstr "精确（等方差）"
 
-#: SPSSINC_SUMMARY_TTEST.py:204
 msgid "Exact (unequal variance)"
-msgstr ""
-"精确（不等方差）"
+msgstr "精确（不等方差）"
 
-#: SPSSINC_SUMMARY_TTEST.py:238
 msgid "---"
-msgstr ""
-"---"
-
-
-
+msgstr "---"

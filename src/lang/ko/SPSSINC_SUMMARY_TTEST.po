@@ -1,174 +1,102 @@
-#/***********************************************************************
-# * Licensed Materials - Property of IBM 
-# *
-# * IBM SPSS Products: Statistics Common
-# *
-# * (C) Copyright IBM Corp. 1989, 2014
-# *
-# * US Government Users Restricted Rights - Use, duplication or disclosure
-# * restricted by GSA ADP Schedule Contract with IBM Corp. 
-# ************************************************************************/
-
-# NLS_ENCODING=UTF-8
-# IBMUPYTH
-
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR ORGANIZATION
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
+
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-21 17:51+China Standard Time\n"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-11 00:34-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Generated-By: pygettext.py 1.5\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Globalization Pipeline\n"
 
-
-#: SPSSINC_SUMMARY_TTEST.py:84
 msgid "Sample 1"
-msgstr ""
-"표본 1"
+msgstr "표본 1"
 
-#: SPSSINC_SUMMARY_TTEST.py:86
 msgid "Sample 2"
-msgstr ""
-"표본 2"
+msgstr "표본 2"
 
-#: SPSSINC_SUMMARY_TTEST.py:89
 msgid "The same number of values must be given for each statistic or label"
-msgstr ""
-"각 통계 또는 레이블에 대해 동일한 값 수가 제공되어야 합니다."
+msgstr "각 통계 또는 레이블에 대해 동일한 값 수가 제공되어야 합니다."
 
-#: SPSSINC_SUMMARY_TTEST.py:103
 msgid "Sample sizes must be at least 1"
-msgstr ""
-"표본 크기는 1 이상이어야 합니다."
+msgstr "표본 크기는 1 이상이어야 합니다."
 
-#: SPSSINC_SUMMARY_TTEST.py:171
 msgid "Test %d:  "
-msgstr ""
-"검정 %d:  "
+msgstr "검정 %d:  "
 
-#: SPSSINC_SUMMARY_TTEST.py:185
 msgid "Summary Data"
-msgstr ""
-"요약 데이터"
+msgstr "요약 데이터"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Mean"
-msgstr ""
-"평균 순위"
+msgstr "평균 순위"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "N"
-msgstr ""
-"N"
+msgstr "N"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Deviation"
-msgstr ""
-"표준편차"
+msgstr "표준편차"
 
-#: SPSSINC_SUMMARY_TTEST.py:186
 msgid "Std. Error Mean"
-msgstr ""
-"평균의 표준오차"
+msgstr "평균의 표준오차"
 
-#: SPSSINC_SUMMARY_TTEST.py:191 SPSSINC_SUMMARY_TTEST.py:192
 msgid "Independent Samples Test"
-msgstr ""
-"독립표본 검정"
+msgstr "독립표본 검정"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Mean Difference"
-msgstr ""
-"평균차이"
+msgstr "평균차이"
 
-#: SPSSINC_SUMMARY_TTEST.py:192
 msgid "Std. Error Difference"
-msgstr ""
-"차이의 표준오차"
+msgstr "차이의 표준오차"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Hartley test for equal variance: F = %.3f, Sig. = %.4f"
-msgstr ""
-"등분산에 대한 Hartley 검정: F = %.3f, 유의확률 = %.4f"
+msgstr "등분산에 대한 Hartley 검정: F = %.3f, 유의확률 = %.4f"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "Sig. (2-tailed)"
-msgstr ""
-"유의확률 (양측)"
+msgstr "유의확률 (양측)"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "df"
-msgstr ""
-"자유도"
+msgstr "자유도"
 
-#: SPSSINC_SUMMARY_TTEST.py:193
 msgid "t"
-msgstr ""
-"t"
+msgstr "t"
 
-#: SPSSINC_SUMMARY_TTEST.py:194
 msgid "Equal variances assumed"
-msgstr ""
-"등분산을 가정함"
+msgstr "등분산을 가정함"
 
-#: SPSSINC_SUMMARY_TTEST.py:195
 msgid "Equal variances not assumed"
-msgstr ""
-"등분산을 가정하지 않음"
+msgstr "등분산을 가정하지 않음"
 
-#: SPSSINC_SUMMARY_TTEST.py:198
 msgid "Confidence Intervals"
-msgstr ""
-"신뢰구간"
+msgstr "신뢰구간"
 
-#: SPSSINC_SUMMARY_TTEST.py:199
 msgid "%.1f%% Confidence Intervals for Difference"
-msgstr ""
-"차이에 대한 %.1f%% 신뢰구간"
+msgstr "차이에 대한 %.1f%% 신뢰구간"
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Lower Limit"
-msgstr ""
-"하한"
+msgstr "하한"
 
-#: SPSSINC_SUMMARY_TTEST.py:200
 msgid "Upper Limit"
-msgstr ""
-"상한"
+msgstr "상한"
 
-#: SPSSINC_SUMMARY_TTEST.py:201
 msgid "Asymptotic (equal variance)"
-msgstr ""
-"점근(등분산)"
+msgstr "점근(등분산)"
 
-#: SPSSINC_SUMMARY_TTEST.py:202
 msgid "Asymptotic (unequal variance)"
-msgstr ""
-"점근(이분산)"
+msgstr "점근(이분산)"
 
-#: SPSSINC_SUMMARY_TTEST.py:203
 msgid "Exact (equal variance)"
-msgstr ""
-"정확검정(등분산)"
+msgstr "정확검정(등분산)"
 
-#: SPSSINC_SUMMARY_TTEST.py:204
 msgid "Exact (unequal variance)"
-msgstr ""
-"정확검정(이분산)"
+msgstr "정확검정(이분산)"
 
-#: SPSSINC_SUMMARY_TTEST.py:238
 msgid "---"
-msgstr ""
-"---"
-
-
-
+msgstr "---"

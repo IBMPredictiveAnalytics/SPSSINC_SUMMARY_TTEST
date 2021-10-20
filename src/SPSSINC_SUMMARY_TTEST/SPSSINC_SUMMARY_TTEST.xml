@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><Extension debug="false" version="1.0" xmlns="http://spss.com/clementine/extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://spss.com/clementine/extensions http://xml.spss.com/clementine/extensions/CLEFSpecificationFile.xsd">
+  <ExtensionDetails copyright="Licensed Materials - Property of IBM.  IBM SPSS Products: Statistics Common (C) Copyright IBM Corp. 1989, 2014.  US Government Users Restricted Rights - Use, duplication or  disclosure restricted by GSA ADP Schedule Contract with IBM Corp." description="" id="SPSSINC_SUMMARY_TTEST" label="" provider="SPSS, Inc." providerTag="spss" version="1.0"/>
+  <Resources>
+    <Bundle id="bundle1" path="SPSSINC_SUMMARY_TTEST" type="properties"/>
+  </Resources>
+  <CommonObjects>
+    <Actions>
+      <Action id="SPSSINC_SUMMARY_TTEST_action" imagePath="IBMdialogicon.png" label="Summary Independent-Samples T Test" labelKey="SPSSINC_SUMMARY_TTEST_action.LABEL"/>
+    </Actions>
+  </CommonObjects>
+  <UserInterface>
+    <Controls>
+      <MenuItem action="SPSSINC_SUMMARY_TTEST_action" offset="3" previousId="" showIcon="true" spssMenu="Analyze.analyze_comp_means"/>
+    </Controls>
+  </UserInterface>
+  <Node id="SPSSINC_SUMMARY_TTEST" label="T Test Computed from Summary Data" labelKey="SPSSINC_SUMMARY_TTEST.LABEL" type="modelBuilder">
+    <Properties>
+      <Property name="SPSSINC_SUMMARY_TTEST" syntax="SPSSINC SUMMARY TTEST %%sample1%% %%sample2%% %%conflevel%%"/>
+      <Property description="false" name="SPSSINC_SUMMARY_TTEST_modal"/>
+      <Property description="" descriptionKey="sample1_tooltip.LABEL" isRequired="true" label="Sample 1" labelKey="sample1.LABEL" name="sample1" syntax="%%ThisValue%%"/>
+      <Property defaultValue="" description="" descriptionKey="n1_tooltip.LABEL" isRequired="true" label="Number of cases:" labelKey="n1.LABEL" min="0.000000" name="n1" syntax="N1=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="" description="" descriptionKey="mean1_tooltip.LABEL" isRequired="true" label="Mean:" labelKey="mean1.LABEL" name="mean1" syntax="MEAN1=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="" description="" descriptionKey="std1_tooltip.LABEL" isRequired="true" label="Standard Deviation:" labelKey="std1.LABEL" name="std1" syntax="SD1=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="Sample 1" description="" descriptionKey="label1_tooltip.LABEL" label="Label:" labelKey="label1.LABEL" name="label1" syntax="LABEL1=&quot;%%ThisValue%%&quot;" valueType="string"/>
+      <Property description="" descriptionKey="sample2_tooltip.LABEL" isRequired="true" label="Sample 2" labelKey="sample2.LABEL" name="sample2" syntax="%%ThisValue%%"/>
+      <Property defaultValue="" description="" descriptionKey="n2_tooltip.LABEL" isRequired="true" label="Number of cases:" labelKey="n2.LABEL" min="0.000000" name="n2" syntax="N2=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="" description="" descriptionKey="mean2_tooltip.LABEL" isRequired="true" label="Mean:" labelKey="mean2.LABEL" name="mean2" syntax="MEAN2=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="" description="" descriptionKey="std2_tooltip.LABEL" isRequired="true" label="Standard Deviation:" labelKey="std2.LABEL" name="std2" syntax="SD2=%%ThisValue%%" valueType="double"/>
+      <Property defaultValue="Sample 2" description="" descriptionKey="label2_tooltip.LABEL" isRequired="true" label="Label:" labelKey="label2.LABEL" name="label2" syntax="LABEL2=&quot;%%ThisValue%%&quot;" valueType="string"/>
+      <Property defaultValue="95" description="" descriptionKey="conflevel_tooltip.LABEL" isRequired="true" label="Confidence Level (%)" labelKey="conflevel.LABEL" max="99.999900" min="50.000000" name="conflevel" syntax="CI=%%ThisValue%%" valueType="double"/>
+    </Properties>
+    <UserInterface>
+      <Tabs>
+        <Tab helpLink="">
+          <PropertiesPanel>
+            <PropertiesPanel id="sample1" label="Sample 1" labelKey="sample1.LABEL">
+              <Layout columnWeight="1.0" fill="both" gridColumn="0" gridRow="0" gridWidth="1" rowWeight="1.0"/>
+              <TextBoxControl mnemonic="N" mnemonicKey="n1_mnemonic.VALUE" property="n1">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="0" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="M" mnemonicKey="mean1_mnemonic.VALUE" property="mean1">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="1" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="S" mnemonicKey="std1_mnemonic.VALUE" property="std1">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="2" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="L" mnemonicKey="label1_mnemonic.VALUE" property="label1">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="3" gridWidth="1" rowWeight="1.0"/>
+              </TextBoxControl>
+            </PropertiesPanel>
+            <PropertiesPanel id="sample2" label="Sample 2" labelKey="sample2.LABEL">
+              <Layout columnWeight="1.0" fill="both" gridColumn="1" gridRow="0" gridWidth="1" rowWeight="1.0"/>
+              <TextBoxControl mnemonic="U" mnemonicKey="n2_mnemonic.VALUE" property="n2">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="0" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="E" mnemonicKey="mean2_mnemonic.VALUE" property="mean2">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="1" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="T" mnemonicKey="std2_mnemonic.VALUE" property="std2">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="2" gridWidth="1" rowWeight="0.0"/>
+              </TextBoxControl>
+              <TextBoxControl mnemonic="A" mnemonicKey="label2_mnemonic.VALUE" property="label2">
+                <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="3" gridWidth="1" rowWeight="1.0"/>
+              </TextBoxControl>
+            </PropertiesPanel>
+            <StaticText text="This dialog requires the Python&#10;plugin" textKey="item_11.LABEL">
+              <Layout columnWeight="1.0" fill="none" gridColumn="0" gridRow="2" gridWidth="1" rowWeight="0.0"/>
+            </StaticText>
+            <StaticText text="Marta Garcia-Granero provided valuable&#10;assistance with this procedure" textKey="item_76.LABEL">
+              <Layout columnWeight="1.0" fill="none" gridColumn="0" gridRow="1" gridWidth="1" rowWeight="0.0"/>
+            </StaticText>
+            <TextBoxControl mnemonic="C" mnemonicKey="conflevel_mnemonic.VALUE" property="conflevel">
+              <Layout columnWeight="1.0" fill="horizontal" gridColumn="1" gridRow="1" gridWidth="1" rowWeight="0.0"/>
+            </TextBoxControl>
+            <StaticText text="Note: using syntax you can do many&#10;sets of tests in one command" textKey="item_34.LABEL">
+              <Layout columnWeight="1.0" fill="none" gridColumn="1" gridRow="2" gridWidth="1" rowWeight="0.0"/>
+            </StaticText>
+            <StaticText text="This dialog was created using a later version of IBM SPSS Statistics\nand certain features may not function as intended." textKey="v17_warning.LABEL">
+              <Layout columnWeight="1.0" fill="horizontal" gridColumn="0" gridRow="3" gridWidth="1" rowWeight="1.0"/>
+            </StaticText>
+          </PropertiesPanel>
+        </Tab>
+      </Tabs>
+    </UserInterface>
+  </Node>
+</Extension>
