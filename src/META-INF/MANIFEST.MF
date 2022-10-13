@@ -1,4 +1,5 @@
 Name: SPSSINC SUMMARY TTEST
+Display-Name: Summary t test
 Dialog-Specs: SPSSINC_SUMMARY_TTEST.spd
 Command-Specs: SPSSINC_SUMMARY_TTEST.xml
 Code-Files: SPSSINC_SUMMARY_TTEST.py
